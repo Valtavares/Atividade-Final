@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navegacao {
+    background-image: linear-gradient(to left,salmon,rgb(102, 102, 102));
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+    width: 25%;
+    height: 85,5vh;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.perfil {
+    clip-path: circle(40%);
+    width: 30vh;
+    padding: 10px;
+    image-rendering: auto;
+}
+
+.menu {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.pagina {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.pagina:hover {
+    color: rgb(198, 181, 214);
+    font-size: 20px;
+}
+
+.container {
+    background-image: linear-gradient(to right,salmon,rgb(102, 102, 102));
+    width: 70%;
+    height: 90vh;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.nome {
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.endereço {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.frase {
+    font-size: 20px;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 30px;  
+}
+
+.frase2 {
+    font-size: 25px;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 180px;
+    background-color: rgba(235, 248, 246, 0.219); 
+    border-radius: 15px;
+    width: 35rem;
+    height: 7rem;
+    border: 25px;
+    
+}    
+
+.frase3 {
+    font-size: 25px;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 150px;
+    background-color: rgba(235, 248, 246, 0.219); 
+    border-radius: 15px;
+    width: 50rem;
+    height: 10rem;
+    border: 25px;
+
+}
+
+.linkedin {
+    height: 50px;
+    padding: 20px;
+}
+
+.github {
+    height: 50px;
+    padding: 20px;
+}
+
+.twitter {
+    height: 55px;
+    padding: 17px;
+}
+
+.gmail {
+    height: 25px;
+    padding: 20px;
+}
